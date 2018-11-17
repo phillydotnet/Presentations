@@ -6,4 +6,5 @@ Our second Code Camp was held November 16 and 17, 2018 at the Microsoft MTC in M
 Specific links will be supplied later, but you can follow the following links for more information:
 
 [Philly.NET YouTube Channel](https://youtube.com/phillydotnet)
+
 [Philly.NET Mixer Channel](https://mixer.com/phillydotnet)
