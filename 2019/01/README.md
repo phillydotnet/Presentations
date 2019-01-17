@@ -14,7 +14,7 @@ Scott Ocamb - Agile Coach
 
 Slides
 ---
-Click for [PowerPoint Download](/The ValueofAgile.pptx)
+Click for [PowerPoint Download](https://github.com/phillydotnet/Presentations/blob/master/2019/01/TheValueofAgile.pptx)
 
 Meetup Details: 
 https://www.meetup.com/Philly-NET/events/257682508/
