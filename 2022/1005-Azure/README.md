@@ -7,6 +7,7 @@
 
 - Try to use Azurite for local storage emulation.  The Azure Storage Emulator is Windows only and being deprecated.
 - Working locally is great, but test in the cloud to root out issues where you might be relying on the local machine.
+- Best Practices from the Docs: https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices?tabs=csharp
 
 Installation
 
@@ -40,3 +41,7 @@ https://www.youtube.com/watch?v=R1r1VMYVXG0
 VS Code Extensions for productivity:  https://www.youtube.com/watch?v=2uFYCDGiXV8
 
 Azure Durable Functions:  https://www.youtube.com/watch?v=qJrFylJIdRI
+
+Azure Functions Learning Path: https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/
+Introduction to Azure Functions (part of Serverless Applications module): https://learn.microsoft.com/en-us/training/modules/intro-azure-functions/
+
