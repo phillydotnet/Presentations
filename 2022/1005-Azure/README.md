@@ -1,6 +1,8 @@
 # Philly Azure Notes
 ## October 5, 2022
 
+## Short Link to This Document: https://bit.ly/pdn1005
+
 ## Azure Functions Tips
 
 - Try to use Azurite for local storage emulation.  The Azure Storage Emulator is Windows only and being deprecated.
