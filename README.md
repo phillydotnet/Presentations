@@ -6,10 +6,8 @@ Presentation materials and Instructions categorized by year and month.  Video re
 # 2022
 
 ## October 19 - [Visit the README notes for the evening](https://github.com/phillydotnet/Presentations/blob/master/2022/1019-dotnet/README.md)
-### Step up your C# game with 5 popular NuGets
-### Kubernetes Zarf
-
-
+### Step up your C# game with 5 popular NuGets - Louis Berman
+### Kubernetes Zarf - Jason van Brackel
 
 # 2018
 
