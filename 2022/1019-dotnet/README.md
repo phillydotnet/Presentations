@@ -56,5 +56,27 @@ Examples:
 
 
 
-## Kubernetes Zarf
+## Deploy to Kubernetes Anywhere with Zarf
 Jason van Brackel
+
+- Slack @JvB in #Zarf at https://slack.kubernetes.io 
+- Twitter: [@jasonvanbrackel](https://twitter.com/jasonvanbrackel)
+- Twitch: [jasonvanbrackel](https://www.twitch.tv/jasonvanbrackel)
+
+Defense Unicorns YouTube Channel - https://www.youtube.com/channel/UCWCPckStyw2R0vC4zG68LIg
+
+Defense Unicorns LinkedIn - https://www.linkedin.com/company/defense-unicorns/
+
+Zarf Online Meetups notifications are posted on LinkedIn
+
+### Zarf
+[Zarf website](https://zarf.dev/)
+
+Tools for deploying and managing applications in air-gapped environments
+
+Packages are a single tarball that contains everything needed to deploy payload.
+
+- Define - your payload in YAML
+- Package - the Zarf security packages, charts, manifests, images and files
+- Transport - over the wire or over the road
+- Deploy - Deploy and verify your payload to Kubernetes
