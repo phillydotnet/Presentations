@@ -4,7 +4,7 @@
 
 Meetup Site: https://www.meetup.com/philly-net/events/288013319/
 
-## C# Nuget Packages
+## Step up your C# game with 5 popular NuGets
 Louis Berman
 
 ## Kubernetes Zarf
