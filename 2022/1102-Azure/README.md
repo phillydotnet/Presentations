@@ -13,6 +13,8 @@
 
 [Video: Introduction to Event Grid](https://www.youtube.com/watch?v=TujzkSxJzIA)
 
+Azure Event Grid Viewer: https://github.com/Azure-Samples/azure-event-grid-viewer
+
 
 Comparing Messaging Services:
 
