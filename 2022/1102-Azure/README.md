@@ -13,6 +13,8 @@
 
 [Video: Introduction to Event Grid](https://www.youtube.com/watch?v=TujzkSxJzIA)
 
+[Video: Event Grid vs Event Hubs vs Service Bus in Azure - AZ 204](https://www.youtube.com/watch?v=NCYaUcoaAqo)
+
 Azure Event Grid Viewer: https://github.com/Azure-Samples/azure-event-grid-viewer
 
 
