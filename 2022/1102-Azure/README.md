@@ -9,7 +9,9 @@
 ## Intro to Azure Event Grid
 
 Chris Gomez
+
 chris@chrisgomez.com
+
 Twitter: @SpaceShot
 
 A different way to introduce Azure Event Grid that starts by showing practical examples.  The idea is to avoid the typical comparison of Azure's various messaging services so we don't start by overthinking about all of Azure.
