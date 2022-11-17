@@ -40,3 +40,22 @@ List Patterns: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-
 Raw String Literals: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11#raw-string-literals
 
 C# 11 requires .NET 7 or later
+
+Presentation Demo Code: https://github.com/johniwasz/microsoft-seal-samples
+
+## Microsoft SEAL
+John Iwasz
+
+[Microsoft SEAL Homepage](https://www.microsoft.com/en-us/research/project/microsoft-seal/release-news/)
+
+Homomorphic encryption: Microsoft SEAL provides a set of encryption libraries that allow computations to be performed directly on encrypted data.
+
+### From the documentation:
+
+With Microsoft SEAL, the cloud operators will never have unencrypted access to the data they are storing and computing on. This is possible through homomorphic encryption technology, that allows computations to be performed directly on encrypted data.
+
+### Also see:
+[GitHub: SEAL-Embedded](https://github.com/microsoft/SEAL-Embedded)
+
+Also see: [FHE.org](https://fhe.org)
+
