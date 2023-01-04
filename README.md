@@ -5,7 +5,7 @@ Presentation materials and Instructions categorized by year and month.  Video re
 
 # 2023
 
-## January 4 - [README notes](https://github.com/phillydotnet/Presentations/blob/master/README.md)
+## January 4 - [README notes](https://github.com/phillydotnet/Presentations/tree/master/2023/0104-Azure/README.md)
 
 ### Private Endpoints, Private DNS, & Private Links... Oh My! - Rufus Harvey
 
