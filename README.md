@@ -3,9 +3,15 @@ Presentation meeting notes and materials, including slides and links to replays.
 
 Presentation materials and Instructions categorized by year and month.  Video replays of labs are often available.  
 
+# 2023
+
+## January 4 - [README notes](https://github.com/phillydotnet/Presentations/blob/master/README.md)
+
+### Private Endpoints, Private DNS, & Private Links... Oh My! - Rufus Harvey
+
 # 2022
 
-## October 19 - [Visit the README notes for the evening](https://github.com/phillydotnet/Presentations/blob/master/2022/1019-dotnet/README.md)
+## October 19 - [README notes](https://github.com/phillydotnet/Presentations/blob/master/2022/1019-dotnet/README.md)
 ### Step up your C# game with 5 popular NuGets - Louis Berman
 ### Kubernetes Zarf - Jason van Brackel
 
