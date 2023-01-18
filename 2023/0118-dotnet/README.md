@@ -21,6 +21,24 @@ Alan Silverblatt - Consultant
 - hashes and digital signatures
 - worst practices (things to avoid)
 
+### Notes
+Cryptography classes are in the System.Security.Cryptography namespace.
+
+***
+
+## Minimal APIs in .NET Core
+Bill Wolff - Agility Systems
+
+### Slides
+
+[View Slides Online](https://1drv.ms/p/s!AnWWJr_PqAvkiGBXvrItkHKzKYV2?e=hGJDgN)
+
+-or- [Click to Download Powerpoint pptx file](files/MinimalAPI-BillWolff.pptx)
+
+Minimal APIs are a simplified approach for building fast HTTP APIs with ASP.NET Core. You can build fully functioning REST endpoints with minimal code and configuration. Skip traditional scaffolding and avoid unnecessary controllers by fluently declaring API routes and actions.
+
+### Notes
+
 ***
 
 ### More about Philly.NET: https://www.meetup.com/philly-net/
