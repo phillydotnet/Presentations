@@ -7,10 +7,11 @@
 
 ## YouTube Replay: *to be determined*
 
-## [Meetup site](https://www.meetup.com/philly-azure) for this event
+## [Meetup site](https://www.meetup.com/philly-azure/events/290838907/) for this event
 
 ***
 
+## PowerApps and PowerBI
 
 
 ***
