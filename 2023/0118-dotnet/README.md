@@ -39,6 +39,29 @@ Minimal APIs are a simplified approach for building fast HTTP APIs with ASP.NET 
 
 ### Notes
 
+[What's new in .NET 7](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-7)
+
+Bill noted an emphasis on [Performance (Microsoft Docs)](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-7#performance)
+
+
+How to create a new Minimal API Project called `pdn-minimal-api` from the command line
+``` cmd
+dotnet new webapi -minimal -n pdn-minimal-api
+```
+
+Bill noted that if you are afraid of using Swagger because it exposes your API to anyone who can figure out the endpoint, note that the template only uses Swagger in Development builds.
+``` C#
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+```
+
+VS Code Extensions needed:
+- C# Extension
+
 ***
 
 ### More about Philly.NET: https://www.meetup.com/philly-net/
