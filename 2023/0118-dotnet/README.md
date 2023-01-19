@@ -14,6 +14,10 @@
 ## .NET Encryption
 Alan Silverblatt - Consultant
 
+### Slides
+Slides and Code can be found at: http://silverblatt.net/encryption.htm
+
+
 - definition of encryption terminology
 - a quick history of encryption
 - overview of the two main types of encryption (symmetric and asymmetric)
