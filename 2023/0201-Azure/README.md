@@ -3,7 +3,7 @@
 
 ## Short Link to This Content: https://bit.ly/phlaz230201
 ## or Scan Here
-<img src="images/bit.ly_phlaz230201.png" alt="alt text" title="image Title" width="140"/>
+<img src="images\QRPhillyAzureFeb2023.png" alt="alt text" title="image Title" width="256"/>
 
 ## YouTube Replay: *to be determined*
 
