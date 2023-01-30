@@ -11,8 +11,13 @@
 
 ***
 
-## PowerApps and PowerBI
+# Power Platform: PowerApps and PowerBI
 
+## PowerApps
+Presented by: James Stento Microsoft Principal Technical Architect
+
+
+## PowerBI
 
 ***
 
@@ -23,6 +28,6 @@ Meets the first Wednesday of the month (see Meetup site)
 Meets the third Wednesday of the month (Nov, Dec may be different, see Meetup Site)
 Code Camps will be announced here.
 
-### YouTube Channel
+### YouTube Channels
 Philly.NET: https://www.youtube.com/phillydotnet
 Philly Azure: https://www.youtube.com/PhillyAzure
