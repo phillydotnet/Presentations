@@ -14,7 +14,27 @@
 # Power Platform: PowerApps and PowerBI
 
 ## PowerApps
-Presented by: James Stento Microsoft Principal Technical Architect
+Presented by: James Stento  - Microsoft Principal Technical Architect
+
+Landing page for Power Platform: https://powerplatform.microsoft.com/
+
+Business users who don't know the underlying technical issues with things like (but not limited to) connecting to a database, calling an API, etc... can use connectors to access data in these low-code apps.
+
+[What is Power Platform?](https://powerplatform.microsoft.com/en-us/what-is-power-platform/)
+
+James: "There aren't nearly enough developers to do what the business needs them to do."
+"The folks that execute business processes and require IT services is changing."
+
+### Notes
+Power Platform governance controls what people can build, user access control, and preventing users from writing apps they shouldn't.  This is built into the platform.
+
+There are hundreds of standard connectors, but you can build your own custom connectors.
+
+Fusion Teams
+
+Pro IT developers, Business Analysts, 
+Bring in the services needed whether existing or custom, exposed to the power platform creators to drive the business.
+
 
 
 ## PowerBI
