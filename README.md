@@ -5,15 +5,30 @@ Presentation materials and Instructions categorized by year and month.  Video re
 
 # 2023
 
+## February 15 - [README notes](https://github.com/phillydotnet/Presentations/tree/master/2023/0215-dotnet/README.md)
+
+### .NET Maui - Rob Keiser
+
+## February 1 - [README notes](https://github.com/phillydotnet/Presentations/tree/master/2023/0201-Azure/README.md)
+
+### PowerApps - James Stento
+
+## January 18 - [README notes](https://github.com/phillydotnet/Presentations/tree/master/2023/0118-dotnet/README.md)
+
+### .NET Encryption - Alan Silverblatt
+### Minimal APIs - Bill Wolff
+
 ## January 4 - [README notes](https://github.com/phillydotnet/Presentations/tree/master/2023/0104-Azure/README.md)
 
 ### Private Endpoints, Private DNS, & Private Links... Oh My! - Rufus Harvey
+<br/>
 
 # 2022
 
 ## October 19 - [README notes](https://github.com/phillydotnet/Presentations/blob/master/2022/1019-dotnet/README.md)
 ### Step up your C# game with 5 popular NuGets - Louis Berman
 ### Kubernetes Zarf - Jason van Brackel
+<br/>
 
 # 2018
 
