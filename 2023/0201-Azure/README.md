@@ -11,7 +11,7 @@
 
 ***
 
-# Power Platform: PowerApps and PowerBI
+# Power Platform: PowerApps
 
 ## PowerApps
 Presented by: James Stento  - Microsoft Principal Technical Architect
@@ -35,9 +35,6 @@ Fusion Teams
 Pro IT developers, Business Analysts, 
 Bring in the services needed whether existing or custom, exposed to the power platform creators to drive the business.
 
-
-
-## PowerBI
 
 ***
 
