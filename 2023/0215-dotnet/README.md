@@ -2,7 +2,7 @@
 
 ## Short Link to This Content: https://bit.ly/pdn230215
 ## or Scan Here
-<img src="images\PDNFeb2023.png" alt="alt text" title="image Title" width="256"/>
+<img src="images\PdnFeb2023.png" alt="alt text" title="image Title" width="256"/>
 
 ## YouTube Replay: *to be determined*
 
