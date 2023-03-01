@@ -3,7 +3,7 @@
 ## Short Link to This Content: https://bit.ly/pdn230315
 
 ## or Scan Here
-<img src="images\PhlAzMar2023.png" alt="QR Code for direct link to this page" width="256"/>
+<img src="images\PDnMar2023.png" alt="QR Code for direct link to this page" width="256"/>
 
 ## YouTube Replay: *to be determined*
 
@@ -13,7 +13,7 @@
 
 ## Understanding Go: Learnings from Microsoft's Ad Tech Platform
 
-### Presented by:  Scott Kay - Microsoft Ad Server
+### Presented by: Scott Kay - Microsoft Ad Server
 
 #### Overview
 
