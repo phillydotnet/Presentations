@@ -3,7 +3,7 @@
 ## Short Link to This Content: https://bit.ly/pdn230315
 
 ## or Scan Here
-<img src="images\PDnMar2023.png" alt="QR Code for direct link to this page" width="256"/>
+<img src="images\PdnMar2023.png" alt="QR Code for direct link to this page" width="256"/>
 
 ## YouTube Replay: *to be determined*
 
