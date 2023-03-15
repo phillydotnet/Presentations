@@ -24,7 +24,9 @@ Go is a featured language in the Stack Overflow developer technology survey.  Wh
 You can start with and try Go right at the Go Language website: https://go.dev/
 
 #### Go at Microsoft
-Go is used at Microsoft on the PrebidServer, github.com/prebid/prebid-server.  Prebid Server is an open source implementation of Server-Side Header Bidding
+Go is used at Microsoft on Prebid Server: https://github.com/prebid/prebid-server.
+
+Prebid Server is an open source implementation of Server-Side Header Bidding
 
 #### Go and C# Quick Comparison
 | Go         | C#|
@@ -46,8 +48,16 @@ By comparison, Go has less syntax, with less keywords than C#.  It is considered
 
 Common IDE/editors are: Visual Studio Code, GoLand, or a text editor like Vim.
 
+#### A sample first Go program
+``` Go
+package main
 
+import "fmt"
 
+func main() {
+    fmt.Println("hello world")
+}
+```
 
 ***
 
