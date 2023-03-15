@@ -15,6 +15,40 @@ Go is an open-source programming language that offers straightforward syntax, fa
 
 In this talk, you'll see how Go powers parts of Microsoft's Ad Tech platform and learn how to get started developing your own Go application. Whether you're a beginner or an experienced developer, this talk will provide insights into Go's capability and familiarize you with its ecosystem.
 
+### Notes
+
+#### Go as an up and coming popular language
+Go is a featured language in the Stack Overflow developer technology survey.  While it only accounts for about [11% in terms of popularity](https://survey.stackoverflow.co/2022/#technology-most-popular-technologies), it ranked [8th in the most loved technology category](https://survey.stackoverflow.co/2022/#technology-most-loved-dreaded-and-wanted).
+
+#### Getting started
+You can start with and try Go right at the Go Language website: https://go.dev/
+
+#### Go at Microsoft
+Go is used at Microsoft on the PrebidServer, github.com/prebid/prebid-server.  Prebid Server is an open source implementation of Server-Side Header Bidding
+
+#### Go and C# Quick Comparison
+| Go         | C#|
+|--------------|-----------|
+| Garbage Collected| Garbage Collected|
+| Compile For Anywhere| Run Anywhere|
+| Minimalistic Syntax|Expressive Syntax|
+|No UI Framework|Strong Ui Framework|
+|Open-Source Ecosystem|NuGet & Proprietary|
+|Generics**|Generics +|
+|Duck Typing + Embedding| Traditional Inheritance|
+|Channels + Go Routines|Async|
+
+** Scott pointed out Generics are new to Go and are not as powerful.  Some say they are not necessary or as critical.
+
+By comparison, Go has less syntax, with less keywords than C#.  It is considered quite opinionated in the language itself.
+
+#### Getting started
+
+Common IDE/editors are: Visual Studio Code, GoLand, or a text editor like Vim.
+
+
+
+
 ***
 
 ## AI for Developers: Enhancing Skills, Not Replacing Them
