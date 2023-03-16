@@ -75,6 +75,8 @@ By working alongside AI, developers can overcome common coding challenges and fr
 
 Join us and discover how you can embrace the power of AI and become a better developer in the process.
 
+During the Presentation, Chris was using the [AIPRM for ChatGPT extension](https://chrome.google.com/webstore/detail/aiprm-for-chatgpt/ojnbohmppadfgpejeebfnmnknjdlckgj).
+
 ***
 
 ### More about Philly.NET: https://www.meetup.com/philly-net/
