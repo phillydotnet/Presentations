@@ -5,7 +5,7 @@
 ## or Scan Here
 <img src="images/bit.ly_phlaz230104.png" alt="alt text" title="image Title" width="140"/>
 
-## YouTube Replay: *to be determined*
+## YouTube Replay: https://youtu.be/j5XO0HhAU9U
 
 ## [Meetup site](https://www.meetup.com/philly-azure/events/290284000/) for this event
 
