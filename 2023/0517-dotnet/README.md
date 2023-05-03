@@ -44,7 +44,7 @@ Philly Azure: https://www.youtube.com/PhillyAzure
 
 ## C# Error Handling + Web 3.0
 
-## Short Link to This Content: https://bit.ly/phlaz230503
+## Short Link to This Content: https://bit.ly/pdn230517
 
 ## or Scan Here
-<img src="images\" alt="QR Code for direct link to this page" width="256"/>
+<img src="images\pdn230517.png" alt="QR Code for direct link to this page" width="256"/>
