@@ -9,9 +9,24 @@
 ### Presented by: Louis Berman
 
 #### Overview
-Most of us take an ad-hoc approach to error-handling and logging—a bit of try-catch here, a global error logger there, maybe some code-contracts if we’re willing to put in some extra effort—but there’s a (much) better way. Join Louis Berman as he shows us how his **SquidEyes.Fundamentals** library can help to take our error handling and logging to the next level!
+Most of us take an ad-hoc approach to error-handling and logging—a bit of try-catch here, a global error logger there, maybe some code-contracts if we’re willing to put in some extra effort—but there’s a (much) better way. Join Louis Berman as he shows us how his [**SquidEyes.Fundamentals**](https://github.com/squideyes/Fundamentals) library can help to take our error handling and logging to the next level!
 
 ### Notes
+
+"Exceptions should be for exceptional things"
+
+Exceptions are not really the modern way to handle errors in .NET
+- Expensive
+- Jumping out of your code path to deal with
+
+Library: [OneOf](https://github.com/mcintyre321/OneOf/)
+A library to implement discriminated unions in C#
+
+Helper Methods in [SquidEyes.Fundamentals](https://github.com/squideyes/Fundamentals)
+
+[Seq](https://docs.datalust.co/docs/an-overview-of-seq): Real-time search and analysis server for structured application logs.
+
+
 
 ***
 
