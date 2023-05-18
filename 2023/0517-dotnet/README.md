@@ -12,6 +12,9 @@
 Most of us take an ad-hoc approach to error-handling and logging—a bit of try-catch here, a global error logger there, maybe some code-contracts if we’re willing to put in some extra effort—but there’s a (much) better way. Join Louis Berman as he shows us how his [**SquidEyes.Fundamentals**](https://github.com/squideyes/Fundamentals) library can help to take our error handling and logging to the next level!
 
 ### Notes
+Error Handling Demo can be found at:
+https://github.com/squideyes/PdnErrorHandling
+
 
 "Exceptions should be for exceptional things"
 
@@ -26,11 +29,9 @@ Helper Methods in [SquidEyes.Fundamentals](https://github.com/squideyes/Fundamen
 
 [Seq](https://docs.datalust.co/docs/an-overview-of-seq): Real-time search and analysis server for structured application logs.
 
-
-
 ***
 
-## Web 3.0
+## What and Why Web 3.0
 
 ### Presented by: Mahesh Chand, CSharp Inc, Mindcracker
 
