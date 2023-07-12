@@ -26,7 +26,7 @@ Those who want to work alongside the presenter should have a laptop with Docker 
 
 # Philly,NET - July 12, 2023
 
-## 2 Hours with Azure Kubernetes
+## 2 Hours with Azure Kubernetes - Jason van Brackel
 
 ## Short Link to This Content: https://bit.ly/pdn230712
 
