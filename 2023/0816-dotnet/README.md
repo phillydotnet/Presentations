@@ -35,6 +35,8 @@ Join our next hands-on lab as Bill Wolff takes us through a full stack journey. 
   - install [vs code](https://code.visualstudio.com/)
 - you need .net 7
   - download [.net core 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- download the sample database
+  - 2023/0816-dotnet/files/AgilitySports.bak
 - we will show some vs code extensions, you might install them ahead of time, or you can just watch the demo
   - SQL Server (mssql) 1.20.1
   - C# 2.0.357
