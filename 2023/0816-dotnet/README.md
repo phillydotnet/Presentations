@@ -658,6 +658,7 @@ TableModule
   ];
 ```
 40. edit nfl/components/roster/roster.component.html and replace all markup
+> primeng uses templates to shape the html for the table header and rows, headers have sorting, row cells reference the interface for field names, the word let-roster loops through the array
 ```
 <p-table [value]="roster" [tableStyle]="{ 'min-width': '50rem' }">
     <ng-template pTemplate="header">
@@ -687,8 +688,90 @@ TableModule
 </p-table>
 ```
 41. finally, we think about wiring this up to our api
-> to be completed soon!
 42. we need an interface the for the nfl roster table, and a service method to call the api
-43. 
-44. then the roster component must call the service to get the data
-  - 
+43. edit nfl/services/nfl.ts to add the interface that matches our c# dto
+> add at the bottom
+```
+export interface NFLRosterDto {
+    team: string;
+    name: string;
+    position: string;
+    number: string;
+    height: string;
+    weight: string;
+    ageExact: number;
+    college: string;
+}
+```
+44. edit nfl/services/nfl.service.ts to add an api call, notice this is injectable
+> the baseUrl must match the .NET core minimal api that is still running
+```
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { NFLRosterDto } from './nfl';
+import { Observable } from 'rxjs';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class NflService {
+  baseURL = 'http://localhost:1106/api/';
+
+  constructor(
+    private http: HttpClient
+  ) { }
+
+  GetRoster(): Observable<NFLRosterDto[]> {
+    return this.http.get<NFLRosterDto[]>(this.baseURL + 'nfl/roster')
+  }
+}
+```
+46. the httpClient must be registered at the root of the application
+47. edit app.module.ts
+> add the import at the top
+```
+import { HttpClientModule } from '@angular/common/http'; 
+```
+> and mention it in the imports
+```
+HttpClientModule,
+```
+48. then the roster component must call the service to get the data
+49. edit nfl/components/roster/roster.component.ts
+> at the top, add the service import and a call to ngOnInit
+```
+import { Component, OnInit } from '@angular/core';
+import { NflService } from '../../services/nfl.service';
+```
+> change the class declaration to use ngOnInit
+```
+export class RosterComponent implements OnInit {
+```
+> inject the service in the constructor
+```
+  constructor(
+    private nflService: NflService
+  ) {}
+```
+> subscribe to the api method in ngOnInit, the result will overwrite our sample data array
+```
+  ngOnInit(): void {
+    this.nflService.GetRoster().subscribe({
+      next: data => {
+        this.roster = data;
+      }
+    })
+  }
+```
+50. test in the browser, try sorting
+51. our final task is pagination
+52. edit nfl/components/roster/roster.component.html
+> add this to the p-table element
+```
+dataKey="name"
+[rows]="10"
+[showCurrentPageReport]="true"
+[rowsPerPageOptions]="[10, 25, 50]"
+[paginator]="true"
+currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+```  
