@@ -10,27 +10,13 @@
 
 #### Overview
 Join our next hands-on lab as Bill Wolff takes us through a full stack journey. We'll start with building back-end services using Minimal APIs in .NET Core 7. Then, we make our way to the front-end by harnessing Angular to craft dynamic UIs. *Bring a laptop* if you intend to code alongside Bill.
-
-
-### Notes
-
-
-
-# Philly,NET - August 16, 2023
-
-## Full Stack Hands-On Lab with .NET Core 7 Minimal APIs and Angular
-
-## Short Link to This Content: https://bit.ly/pdn230816
-
-## or Scan Here
-<img src="images\pdn230816.png" alt="QR Code for direct link to this page" width="256"/>
-
 ## Lab
 
 ### Requirements
-
 - you need some flavor of sql server to host the database
   - download [sql developer or express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+    - you may already have LocalDB available if you installed Visual Studio. See: [Quick LocalDB Instructions](LocalDB.md)
+    - you can also consider firing up SQL Server in a Docker container, especially if you are not on Windows: [Quickstart: Run SQL Server Linux container images with Docker](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16&preserve-view=true&pivots=cs1-bash)
 - you need a code editor
   - install [vs code](https://code.visualstudio.com/)
 - you need .net 7
@@ -44,7 +30,6 @@ Join our next hands-on lab as Bill Wolff takes us through a full stack journey. 
   - Angular Language Service 16.1.8
 
 ### Course flow
-
 - all the steps are documented below (this will be modified up to class time on wednesday)
 - there is no need to download the instructions, the web page will be here for a long time
 - i will perform each step and explain why
@@ -57,7 +42,7 @@ Build 2 projects in VS Code that display data from a SQL Server database. A .NET
 
 ## Tools You Will Need
 
-It really helps to download all of this before attending the class. Bandwidth may be minited and there will be dozens of developers doing the same thing at the same time.
+It really helps to download all of this before attending the class. Bandwidth may be limited and there will be dozens of developers doing the same thing at the same time.
 
 The versions below are for reference. Any version close to this should work.
 
@@ -775,3 +760,12 @@ dataKey="name"
 [paginator]="true"
 currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
 ```  
+
+# Philly,NET - August 16, 2023
+
+## Full Stack Hands-On Lab with .NET Core 7 Minimal APIs and Angular
+
+## Short Link to This Content: https://bit.ly/pdn230816
+
+## or Scan Here
+<img src="images\pdn230816.png" alt="QR Code for direct link to this page" width="256"/>
