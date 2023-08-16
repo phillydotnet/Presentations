@@ -358,7 +358,8 @@ get http://localhost:1106/api/nfl/roster
 ```
 cd \code
 ```
-4. make a new angular project using their command line interface (CLI), the -p is the prefix for all genrated items, --inline-style means put css in an array and not a sepaarate file, the --routing means add routing support to all modules since we will have many pages, select CSS for the stylesheet methid
+4. make a new angular project using their command line interface (CLI)
+> the -p is the prefix for all genrated items, --inline-style means put css in an array and not a sepaarate file, the --routing means add routing support to all modules since we will have many pages, select CSS for the stylesheet methid
 ```
 ng new AgilitySports -p sports --inline-style --routing
 ```
@@ -370,7 +371,7 @@ cd AgilitySports
 ```
 dir
 ```
-7. restart vs code using th ecurrent folder and review the files created
+7. restart vs code using the current folder and review the files created
 ```
 code -r .
 ```
@@ -381,7 +382,7 @@ code -r .
     2.  main.ts - bootstrap loader 
     3.  styles.css - for later reference
 11. expand the app folder
-    1.  app.modeul.ts - typescript, defines the app and will host and link other modules
+    1.  app.module.ts - typescript, defines the app and will host and link other modules
     2.  app.component.html - default ui layout for a component
     3.  app.component.ts - defines code for a component, note the selector of sports-root, note the imports
     4.  app.component.spec.ts - unit testing framework, not covered today
@@ -392,17 +393,17 @@ ctrl `
 ng serve
 ```
 13. ctrl click on the browser link
-14. next wee add modules for 5 major sports, run each of these separately in the terminal, watch the src folder while these is running
+14. next we add modules for 5 major sports, run each of these separately in the terminal, watch the src folder while these are running
+> hit the + in the terminal to make a new window while the app keeps running
 ```
-hit the + in the terminal to make a new window while the app keeps running
 ng g m nfl --routing -m app
 ng g m nba --routing -m app
 ng g m nhl --routing -m app
 ng g m mlb --routing -m app
 ng g m pga --routing -m app
 ```
-16. each statement makes 2 new files and updates the main module.ts, briefly inspect all of these
-17. now we add some a service to each module to store api call methods and an interface for data types
+15. each statement makes 2 new files and updates the main module.ts, briefly inspect all of these
+16. now we add some a service to each module to store api call methods and an interface for data types
 ```
 ng g s nfl/services/nfl
 ng g i nfl/services/nfl
@@ -420,9 +421,8 @@ ng g s nfl/services/pga
 ng g i nfl/services/pga
 
 ```
-18. each statement makes a few new files, briefly inspect all of these
-19. now we add home page to each module
-
+17. each statement makes a few new files, briefly inspect all of these
+18. now we add home page to each module
 ```
 ng g c nfl/nfl --inline-style -m nfl --flat
 ng g c nba/nba --inline-style -m nba --flat
@@ -431,7 +431,7 @@ ng g c mlb/mlb --inline-style -m mlb --flat
 ng g c nfl/pga --inline-style -m pga --flat
 ```
 20. each statement makes a few new files, briefly inspect all of these
-21. finally, we add compnent pages to nfl and pga as examples
+21. finally, we add component pages to nfl and pga as examples
 ```
 ng g c nfl/components/roster --inline-style
 ng g c nfl/components/team --inline-style
@@ -440,26 +440,25 @@ ng g c nfl/components/player --inline-style
 
 ng g c pga/components/season --inline-style
 ng g c pga/components/tournament --inline-style
-ng g c pga/components/player --inline-style
 ```
-22. each statement makes 3 new files and updates the paretn module, briefly inspect all of these
-23. test one of the new components with a manual url in the already open browser
+21. each statement makes 3 new files and updates the parent module, briefly inspect all of these
+22. test one of the new components with a manual url in the already open browser
 ```
 http://localhost:4200/nfl/roster
 ```
-24. this won't work unless we define some routes and outlets
-25. edit app.module.html, replace all existing code, then test in the browser
+23. this won't work unless we define some routes and outlets
+24. edit app.module.html, replace all existing code, then test in the browser
 ```
 <h1 style="background-color: aqua;padding: .5em;">Agility Sports</h1>
 <router-outlet></router-outlet>
 ```
-26. repeat this step for all 5 modules, edit only the top level html in each, use that cut and paste!
-27. here is a sample for nfl
+25. repeat this step for all 5 modules, edit only the top level html in each, use that cut and paste!
+26. here is a sample for nfl
 ```
 <h1 style="background-color: steelblue;padding: .5em;">National Football League</h1>
 <router-outlet></router-outlet>
 ```
-28. now that we have somethign to see, add routing as needed, edit nfl/nfl-routing.module.ts, put his inside the routes array
+27. now that we have somethign to see, add routing as needed, edit nfl/nfl-routing.module.ts, put his inside the routes array
 ```
     path: "nfl",
     children: [
@@ -484,7 +483,7 @@ http://localhost:4200/nfl/roster
   }
 
 ```
-30. and this to the pga routing 
+28. and this to the pga routing 
 ```
   {
     path: "pga",
@@ -498,10 +497,6 @@ http://localhost:4200/nfl/roster
         component: TournamentComponent
       },
       {
-        path: 'player',
-        component: PlayerComponent
-      },
-      {
         path: '',
         component: PgaComponent,
         pathMatch: 'full'
@@ -510,25 +505,29 @@ http://localhost:4200/nfl/roster
   }
 
 ```
-31. test all the new routing in your browser
+29. test all the new routing in your browser
 ```
 http://localhost:4200/nfl
 http://localhost:4200/nfl/roster
 http://localhost:4200/pga
 http://localhost:4200/pga/tournament
 ```
-32. time permitting, add only top routing in mlb, nba, and nhl
+30. time permitting, add only top routing in mlb, nba, and nhl
 ```
-
+  {
+    path: "mlb",
+    component: MlbComponent,
+    pathMatch: 'full'
+  }
 ```
-33. it would nbe noce to have a menu, we will use a third party for this
+31. it would be nice to have a menu, we will use a third party for this
+> go to the terminal window
 ```
-go to the terminal window
 npm install primeng
 npm install primeflex
 npm install primeicons
 ```
-34. edit styles.css
+32. edit styles.css
 ```
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
@@ -539,21 +538,23 @@ body {
     font-family: var(--font-family);
 }
 ```
-35. test style change in browser
-36. edit app.module.ts to add a reference to primeng
+33. test style change in the browser
+34. edit app.module.ts to add a reference to primeng
+> near the top
 ```
-near the top
 import { MegaMenuModule } from 'primeng/megamenu';
-
-in the imports array
+```
+> in the imports array
+```
 MegaMenuModule
 ```
-37. edit app.component.ts to add the megamenu
+35. edit app.component.ts to add the megamenu
+> at the top
 ```
-at the top
 import { Component, OnInit } from '@angular/core';
-
-in the export calss
+```
+> in the export class
+```
 export class AppComponent implements OnInit {
 
 under the title
@@ -620,7 +621,7 @@ under the title
     ];
   }
 ```
-38. edit app.component.html to place the megamenu on each page
+36. edit app.component.html to place the megamenu on each page
 ```
 <h1 class="flex gap-4 bg-primary p-3">
   <p-megaMenu [model]="items"></p-megaMenu>
@@ -628,18 +629,19 @@ under the title
 </h1>
 <router-outlet></router-outlet>
 ```
-39. add a grid to the nfl roster page by adding module support and html
-40. edit nfl/nfl.module.ts
+37. add a grid to the nfl roster page by adding module support and html
+38. edit nfl/nfl.module.ts
+> at the top
 ```
-at the top
 import { TableModule } from 'primeng/table';
-
-in the imports array
+```
+> in the imports array
+```
 TableModule
 ```
-41. edit nfl/components/roster/roster.compnent.ts to add sample data
+39. edit nfl/components/roster/roster.component.ts to add sample data
+> inside the export
 ```
-inside the export
   roster: any = [
     {
       team: 'PHL',
@@ -655,7 +657,7 @@ inside the export
     }
   ];
 ```
-42. edit nfl/components/roster/roster.component.html and replace all markup
+40. edit nfl/components/roster/roster.component.html and replace all markup
 ```
 <p-table [value]="roster" [tableStyle]="{ 'min-width': '50rem' }">
     <ng-template pTemplate="header">
@@ -684,9 +686,9 @@ inside the export
     </ng-template>
 </p-table>
 ```
-43. finally, we think about wiring this up to our api
+41. finally, we think about wiring this up to our api
 > to be completed soon!
-45. we need an interface the for the nfl roster table, and a service method to call the api
-46. 
-47. then the roster component must call the service to get the data
+42. we need an interface the for the nfl roster table, and a service method to call the api
+43. 
+44. then the roster component must call the service to get the data
   - 
