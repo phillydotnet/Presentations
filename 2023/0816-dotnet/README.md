@@ -119,6 +119,7 @@ http://localhost:5086/swagger/index.html
    3. Dtos - for query records
    4. Models - for table records
    5. SQL - for SQL statements
+   6. Test - test files for the rest client extension
 6. configure mssql connection settings
    1. F1, MS SQL: Manage Connection Profiles, search for SQL
    2. edit settings.json with you rconnection info
@@ -275,7 +276,7 @@ NFL.MapGet("roster/all", async (INFLRepo repo) => {
 #endregion
 ```
 19.  save all files, compile, and reload with dotnet run in the terminal
-20.  create Tests\NFL.http and add a get call, but preface it with a variable
+20.  create Test\NFL.http and add a get call, but preface it with a variable
 ```
 @url = http://localhost:5086/api/
 
