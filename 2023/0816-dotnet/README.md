@@ -270,7 +270,7 @@ NFL.MapGet("roster/all", async (INFLRepo repo) => {
 ### get all roster
 get {{url}}nfl/roster/all
 ```
-22. add Dtos\NLFRosterDto.cs for a more concise json payload
+22. add Dtos\NFLRosterDto.cs for a more concise json payload
 ``` C#
 namespace AgilitySportsAPI.Dtos;
 
