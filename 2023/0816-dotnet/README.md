@@ -107,11 +107,11 @@ http://localhost:1106/swagger/index.html
    6. Test - test files for the rest client extension
 7. configure mssql connection settings
    1. F1, MS SQL: Manage Connection Profiles, search for SQL
-   2. edit settings.json with you rconnection info
+   2. edit settings.json with your connection info
 8. create SQL\nfl.sql
    1. paste in query above and execute
 9. (optional) copy instructions to docs folder
-10. add route groups to categorize apis above the app.Run() statement
+10. edit program.cs and add route groups to categorize apis above the app.Run() statement
 ```
 var all = app.MapGroup("api");
 
