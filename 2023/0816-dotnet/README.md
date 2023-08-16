@@ -6,6 +6,8 @@
 
 ## Full Stack Hands-On Lab with .NET Core 7 Minimal APIs and Angular
 
+## Short Link to This Content: https://bit.ly/pdn230816
+
 ### Presented by: Bill Wolff
 
 #### Overview
