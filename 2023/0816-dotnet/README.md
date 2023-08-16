@@ -65,7 +65,7 @@ The versions below are for reference. Any version close to this should work.
    > store anywhere on your local drive
 2. review tables in SSMS
 3. execute a query in SSMS
-```
+``` sql
 use AgilitySports
 
 select
@@ -761,7 +761,22 @@ dataKey="name"
 [rowsPerPageOptions]="[10, 25, 50]"
 [paginator]="true"
 currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
-```  
+```
+
+## Resources
+[How To Organize Minimal API Endpoints Inside Of Clean Architecture](https://youtu.be/GCuVC_qDOV4?t=63) - Milan Jovanović: Milan shows how you can group APIs using extension methods to provide some modular organization with Minimal APIs
+
+[In defense of Minimal APIs](https://www.youtube.com/watch?v=4ORO-KOufeU) - Nick Chapsas: Nick shows why he likes the direction APIs are going in .NET (this was created with .NET 6.0).  Nick has spoken at NDC many times on Minimal APIs.
+
+Also See:
+[Goodbye controllers, hello Minimal APIs - Nick Chapsas - NDC London 2023](https://www.youtube.com/watch?v=pYl_jnqlXu8&t=55s) - Full talk on Minimal APIs from 2023.
+
+More:
+[Six Ways To Organize Minimal APIs In ASP.NET Core Applications](https://www.binaryintellect.net/articles/f3dcbb45-fa8b-4e12-b284-f0cd2e5b2dcf.aspx) - The author gives some different ideas on how you might organize your APIs without controllers.
+
+[Minimal API endpoints getting messy? Let's get organized](https://dev.to/brunosilvadev/minimal-api-endpoints-getting-messy-lets-get-organized-4hek) - Bruno Silva: Bruno shares an interface based approach to organizing Minimal APIs.
+
+[A Minimal API Discovery Tool for Large APIs](https://wildermuth.com/2023/02/22/minimal-api-discovery/) - Shawn Wildermuth: Shawn goes one step further and discovers which APIs to register using reflection.
 
 # Philly,NET - August 16, 2023
 
