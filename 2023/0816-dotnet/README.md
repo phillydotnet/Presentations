@@ -544,7 +544,7 @@ import { Component, OnInit } from '@angular/core';
 ``` ts
 export class AppComponent implements OnInit {
 
-under the title
+// under the title
   items: MegaMenuItem[] | undefined;
 
   ngOnInit() {
