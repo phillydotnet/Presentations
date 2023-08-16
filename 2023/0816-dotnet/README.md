@@ -275,8 +275,8 @@ NFL.MapGet("roster/all", async (INFLRepo repo) => {
 
 #endregion
 ```
-21.  save all files, compile, and reload with dotnet run in the terminal
-22.  create Test\NFL.http and add a get call, but preface it with a variable
+21. save all files, compile, and reload with dotnet run in the terminal
+22. create Test\NFL.http and add a get call, but preface it with a variable
 ```
 @url = http://localhost:1106/api/
 
@@ -308,7 +308,7 @@ using AgilitySportsAPI.Dtos;
 ```
 Task<IEnumerable<NFLRosterDto>> GetNFLRoster();
 ```
-24.  add a matching method to Data\NFLRepo.cs
+25. add a matching method to Data\NFLRepo.cs
 > add 2 usings at the top
 ```
 using AgilitySportsAPI.Dtos;
@@ -337,14 +337,14 @@ order by
         }
     }
 ```
-26.  finally, add the second endpoint to program.cs
+26. finally, add the second endpoint to program.cs
 ```
 NFL.MapGet("roster", async (INFLRepo repo) => {
     return Results.Ok(await repo.GetNFLRoster());
 });
 ```
-27.  save all files, reload the terminal with dotnet run
-28.  add a second test to Test/NFL.http, we now have a smaller json payload
+27. save all files, reload the terminal with dotnet run
+28. add a second test to Test/NFL.http, we now have a smaller json payload
 ```
 ### list players
 get http://localhost:1106/api/nfl/roster
