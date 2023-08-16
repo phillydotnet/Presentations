@@ -72,8 +72,6 @@ The versions below are for reference. Any version close to this should work.
     - Markdown All in One 3.5.1
   - Angular 16.2
 
-## learning steps:
-
 # database
 
 1. download the sample database backup and restore to your local server
@@ -310,7 +308,7 @@ using AgilitySportsAPI.Dtos;
 ```
 Task<IEnumerable<NFLRosterDto>> GetNFLRoster();
 ```
-23.  add a matching method to Data\NFLRepo.cs
+24.  add a matching method to Data\NFLRepo.cs
 > add 2 usings at the top
 ```
 using AgilitySportsAPI.Dtos;
