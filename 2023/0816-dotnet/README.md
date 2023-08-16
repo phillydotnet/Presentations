@@ -30,11 +30,11 @@ Join our next hands-on lab as Bill Wolff takes us through a full stack journey. 
 ### Requirements
 
 - you need some flavor of sql server to host the database
-  - download [sql developer or express|https://www.microsoft.com/en-us/sql-server/sql-server-downloads]
+  - download [sql developer or express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - you need a code editor
-  - install [vs code|https://code.visualstudio.com/]
+  - install [vs code](https://code.visualstudio.com/)
 - you need .net 7
-  - download [.net core 7|https://dotnet.microsoft.com/en-us/download/dotnet/7.0]
+  - download [.net core 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - we will show some vs code extensions, you might install them ahead of time, or you can just watch the demo
   - SQL Server (mssql) 1.20.1
   - C# 2.0.357
@@ -74,7 +74,7 @@ The versions below are for reference. Any version close to this should work.
 
 # database
 
-1. download database    
+1. download the sample database backup and restore to your local server
    > store anywhere on your local drive
 2. review tables in SSMS
 3. execute a query in SSMS
