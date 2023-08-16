@@ -77,8 +77,8 @@ from NFL.roster
 
 1. open a new vs code window
 2. create an api project in the terminal, then reload vs code
-```
-ctrl `
+``` powershell
+# Press ctrl ` to open a Terminal in VS Code
 
 cd \code
 
@@ -114,7 +114,7 @@ http://localhost:1106/swagger/index.html
    1. paste in query above and execute
 9. (optional) copy instructions to docs folder
 10. edit program.cs and add route groups to categorize apis above the app.Run() statement
-```
+``` C#
 var all = app.MapGroup("api");
 
 var NFL = all.MapGroup("nfl");
@@ -122,7 +122,7 @@ var PGA = all.MapGroup("pga");
 ```
 11. add a simple api in program.cs using lambda syntax, put this in a region
 > remove the sample weather forecast code, then add the lines below
-```
+``` C#
 #region Version
 
 all.MapGet("version", () => "0.1.0");
@@ -147,15 +147,15 @@ Dotnet add package Dapper.Contrib
 Dotnet add package Microsoft.Data.SqlClient
 ```
 15. add a connection string in appsettings.development, supply your own server name
-```
-,
+``` json
     "ConnectionStrings": 
     {
 	    "DefaultConnection" : "Server=Agility;Initial Catalog=AgilitySports;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;"
     }
 ```
 16. add Models\NFLRoster.cs for the nfl roster table, use Dapper annotations for the table name
-```
+
+``` C#
 using Dapper.Contrib.Extensions;
 
 namespace AgilitySportsAPI.Models;
@@ -200,7 +200,7 @@ public record NFLRoster
 }
 ```
 17. add Data\INFLRepo.cs to define the method signature, required for injection into program.cs
-```
+``` C#
 using AgilitySportsAPI.Models;
 
 namespace AgilitySportsAPI.Data;
@@ -214,7 +214,7 @@ public interface INFLRepo
 }
 ```
 18. add Data\NFLRepo.cs for the method, it needs dapper to access sql and the configuration string
-```
+``` C#
 using AgilitySportsAPI.Models;
 using Dapper.Contrib.Extensions;
 using Microsoft.Data.SqlClient;
@@ -245,15 +245,15 @@ public class NFLRepo : INFLRepo
 ```
 19. edit program.cs to add an entry for this new method
 > first add a using statement at the top
-```
+``` C#
 using AgilitySportsAPI.Data;
 ```
 > then add the repository injection above builder.Build();
-```
+``` C#
 builder.Services.AddScoped<INFLRepo, NFLRepo>();
 ```
 > finally add the endpoint below the version region
-```
+``` C#
 #region NFL
 
 NFL.MapGet("roster/all", async (INFLRepo repo) => {
@@ -271,7 +271,7 @@ NFL.MapGet("roster/all", async (INFLRepo repo) => {
 get {{url}}nfl/roster/all
 ```
 22. add Dtos\NLFRosterDto.cs for a more concise json payload
-```
+``` C#
 namespace AgilitySportsAPI.Dtos;
 
 public class NFLRosterDto
@@ -288,21 +288,21 @@ public class NFLRosterDto
 ```
 23. add a second signature to Data\INFLRepo.cs
 > add a using at the top
-```
+``` C#
 using AgilitySportsAPI.Dtos;
 ```
 > add a signature below the existing one
-```
+``` C#
 Task<IEnumerable<NFLRosterDto>> GetNFLRoster();
 ```
 24. add a matching method to Data\NFLRepo.cs
 > add 2 usings at the top
-```
+``` C#
 using AgilitySportsAPI.Dtos;
 using Dapper;
 ```
 > add a method below the existing one
-```
+``` C#
     public async Task<IEnumerable<NFLRosterDto>> GetNFLRoster()
     {
                 var sql = @"
@@ -325,7 +325,7 @@ order by
     }
 ```
 25. finally, add the second endpoint to program.cs
-```
+``` C#
 NFL.MapGet("roster", async (INFLRepo repo) => {
     return Results.Ok(await repo.GetNFLRoster());
 });
@@ -347,7 +347,7 @@ cd \code
 ```
 4. make a new angular project using their command line interface (CLI)
 > the -p is the prefix for all genrated items, --inline-style means put css in an array and not a sepaarate file, the --routing means add routing support to all modules since we will have many pages, select CSS for the stylesheet methid
-```
+``` 
 ng new AgilitySports -p sports --inline-style --routing
 ```
 5. change to the new directory
@@ -435,18 +435,18 @@ http://localhost:4200/nfl/roster
 ```
 23. this won't work unless we define some routes and outlets
 24. edit app.module.html, replace all existing code, then test in the browser
-```
+``` html
 <h1 style="background-color: aqua;padding: .5em;">Agility Sports</h1>
 <router-outlet></router-outlet>
 ```
 25. repeat this step for all 5 modules, edit only the top level html in each, use that cut and paste!
 26. here is a sample for nfl
-```
+``` html
 <h1 style="background-color: steelblue;padding: .5em;">National Football League</h1>
 <router-outlet></router-outlet>
 ```
 27. now that we have somethign to see, add routing as needed, edit nfl/nfl-routing.module.ts, put his inside the routes array
-```
+``` typescript
     path: "nfl",
     children: [
       {
@@ -471,7 +471,7 @@ http://localhost:4200/nfl/roster
 
 ```
 28. and this to the pga routing 
-```
+``` typescript
   {
     path: "pga",
     children: [
@@ -500,7 +500,7 @@ http://localhost:4200/pga
 http://localhost:4200/pga/tournament
 ```
 30. time permitting, add only top routing in mlb, nba, and nhl
-```
+``` typescript
   {
     path: "mlb",
     component: MlbComponent,
@@ -515,7 +515,7 @@ npm install primeflex
 npm install primeicons
 ```
 32. edit styles.css
-```
+``` css
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
@@ -528,7 +528,7 @@ body {
 33. test style change in the browser
 34. edit app.module.ts to add a reference to primeng
 > near the top
-```
+``` ts
 import { MegaMenuModule } from 'primeng/megamenu';
 ```
 > in the imports array
@@ -537,11 +537,11 @@ MegaMenuModule
 ```
 35. edit app.component.ts to add the megamenu
 > at the top
-```
+``` ts
 import { Component, OnInit } from '@angular/core';
 ```
 > in the export class
-```
+``` ts
 export class AppComponent implements OnInit {
 
 under the title
@@ -609,7 +609,7 @@ under the title
   }
 ```
 36. edit app.component.html to place the megamenu on each page
-```
+``` html
 <h1 class="flex gap-4 bg-primary p-3">
   <p-megaMenu [model]="items"></p-megaMenu>
   <span>Agility Sports</span>
@@ -619,7 +619,7 @@ under the title
 37. add a grid to the nfl roster page by adding module support and html
 38. edit nfl/nfl.module.ts
 > at the top
-```
+``` ts
 import { TableModule } from 'primeng/table';
 ```
 > in the imports array
@@ -628,7 +628,7 @@ TableModule
 ```
 39. edit nfl/components/roster/roster.component.ts to add sample data
 > inside the export
-```
+``` ts
   roster: any = [
     {
       team: 'PHL',
@@ -646,7 +646,7 @@ TableModule
 ```
 40. edit nfl/components/roster/roster.component.html and replace all markup
 > primeng uses templates to shape the html for the table header and rows, headers have sorting, row cells reference the interface for field names, the word let-roster loops through the array
-```
+``` html
 <p-table [value]="roster" [tableStyle]="{ 'min-width': '50rem' }">
     <ng-template pTemplate="header">
         <tr>
@@ -678,7 +678,7 @@ TableModule
 42. we need an interface the for the nfl roster table, and a service method to call the api
 43. edit nfl/services/nfl.ts to add the interface that matches our c# dto
 > add at the bottom
-```
+``` ts
 export interface NFLRosterDto {
     team: string;
     name: string;
@@ -692,7 +692,7 @@ export interface NFLRosterDto {
 ```
 44. edit nfl/services/nfl.service.ts to add an api call, notice this is injectable
 > the baseUrl must match the .NET core minimal api that is still running
-```
+``` ts
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { NFLRosterDto } from './nfl';
@@ -716,7 +716,7 @@ export class NflService {
 46. the httpClient must be registered at the root of the application
 47. edit app.module.ts
 > add the import at the top
-```
+``` ts
 import { HttpClientModule } from '@angular/common/http'; 
 ```
 > and mention it in the imports
@@ -726,22 +726,22 @@ HttpClientModule,
 48. then the roster component must call the service to get the data
 49. edit nfl/components/roster/roster.component.ts
 > at the top, add the service import and a call to ngOnInit
-```
+``` ts
 import { Component, OnInit } from '@angular/core';
 import { NflService } from '../../services/nfl.service';
 ```
 > change the class declaration to use ngOnInit
-```
+``` ts
 export class RosterComponent implements OnInit {
 ```
 > inject the service in the constructor
-```
+``` ts
   constructor(
     private nflService: NflService
   ) {}
 ```
 > subscribe to the api method in ngOnInit, the result will overwrite our sample data array
-```
+``` ts
   ngOnInit(): void {
     this.nflService.GetRoster().subscribe({
       next: data => {

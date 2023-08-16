@@ -68,5 +68,4 @@ SqlLocalDB.exe start
 ```
 
 ### Now how do I use it?
-
 This server should be named `(localdb)\.` when you connect to it in tooling like SQL Server Management Server, Azure Data Studio or in your code connection strings.
