@@ -171,7 +171,7 @@ Dotnet add package Microsoft.Data.SqlClient
 ```
 using Dapper.Contrib.Extensions;
 
-namespace AgilitySports.Models;
+namespace AgilitySportsAPI.Models;
 
 [Table("NFL.roster")]
 public record NFLroster
@@ -214,7 +214,7 @@ public record NFLroster
 ```
 16. add Data\INFLRepo.cs to define the method signature, required for injection into program.cs
 ```
-using AgilitySports.Models;
+using AgilitySportsAPI.Models;
 
 namespace AgilitySportsAPI.Data;
 public interface INFLRepo
@@ -244,7 +244,7 @@ public class NFLRepo : INFLRepo
 
     #region NFL
 
-    public async Task<IEnumerable<NFLroster>> GetAllNFLroster()
+    public async Task<IEnumerable<NFLroster>> GetAllNFLRoster()
     {
         using (var connection = new SqlConnection(configuration.GetConnectionString("DefaultConnection")))
         {
@@ -316,7 +316,7 @@ using Dapper;
 ```
 > add a method below the existing one
 ```
-    public async Task<IEnumerable<NFLrosterDto>> GetNFLroster()
+    public async Task<IEnumerable<NFLrosterDto>> GetNFLRoster()
     {
                 var sql = @"
 select 
