@@ -395,17 +395,17 @@ ng g m pga --routing -m app
 ng g s nfl/services/nfl
 ng g i nfl/services/nfl
 
-ng g s nfl/services/nba
-ng g i nfl/services/nba
+ng g s nba/services/nba
+ng g i nba/services/nba
 
-ng g s nfl/services/nhl
-ng g i nfl/services/nhl
+ng g s nhl/services/nhl
+ng g i nhl/services/nhl
 
-ng g s nfl/services/mlb
-ng g i nfl/services/mlb
+ng g s mlb/services/mlb
+ng g i mlb/services/mlb
 
-ng g s nfl/services/pga
-ng g i nfl/services/pga
+ng g s pga/services/pga
+ng g i pga/services/pga
 
 ```
 17. each statement makes a few new files, briefly inspect all of these
@@ -415,7 +415,7 @@ ng g c nfl/nfl --inline-style -m nfl --flat
 ng g c nba/nba --inline-style -m nba --flat
 ng g c nhl/nhl --inline-style -m nhl --flat
 ng g c mlb/mlb --inline-style -m mlb --flat
-ng g c nfl/pga --inline-style -m pga --flat
+ng g c pga/pga --inline-style -m pga --flat
 ```
 20. each statement makes a few new files, briefly inspect all of these
 21. finally, we add component pages to nfl and pga as examples
