@@ -113,14 +113,27 @@ http://localhost:1106/swagger/index.html
 8. create SQL\nfl.sql
    1. paste in query above and execute
 9. (optional) copy instructions to docs folder
-10. edit program.cs and add route groups to categorize apis above the app.Run() statement
+10. edit program.cs and add a cors policy (might be needed depending on your environment)
+> above the builder.Build() statement
+```
+builder.Services.AddCors();
+```
+> just after builder.Build() statement
+```
+app.UseCors(builder => builder
+.AllowAnyOrigin()
+.AllowAnyMethod()
+.AllowAnyHeader()
+);
+```
+11. edit program.cs and add route groups to categorize apis above the app.Run() statement
 ``` C#
 var all = app.MapGroup("api");
 
 var NFL = all.MapGroup("nfl");
 var PGA = all.MapGroup("pga");
 ```
-11. add a simple api in program.cs using lambda syntax, put this in a region
+12. add a simple api in program.cs using lambda syntax, put this in a region
 > remove the sample weather forecast code, then add the lines below
 ``` C#
 #region Version
@@ -129,31 +142,31 @@ all.MapGet("version", () => "0.1.0");
 
 #endregion
 ```
-12. test in your browser and swagger
+13. test in your browser and swagger
 ```
 http://localhost:1106/api/version
 
 http://localhost:1106/swagger/index.html
 ```
-13. test in rest client by creating Test\version.http, use send request to see results
+14. test in rest client by creating Test\version.http, use send request to see results
 ```
 ### current version
 get http://localhost:1106/api/version
 ```
-14. add the dapper orm in the terminal (entity framework is another way to do this)
+15. add the dapper orm in the terminal (entity framework is another way to do this)
 ```
 Dotnet add package Dapper
 Dotnet add package Dapper.Contrib
 Dotnet add package Microsoft.Data.SqlClient
 ```
-15. add a connection string in appsettings.development, supply your own server name
+16. add a connection string in appsettings.development, supply your own server name
 ``` json
     "ConnectionStrings": 
     {
 	    "DefaultConnection" : "Server=Agility;Initial Catalog=AgilitySports;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;"
     }
 ```
-16. add Models\NFLRoster.cs for the nfl roster table, use Dapper annotations for the table name
+17. add Models\NFLRoster.cs for the nfl roster table, use Dapper annotations for the table name
 
 ``` C#
 using Dapper.Contrib.Extensions;
@@ -199,7 +212,7 @@ public record NFLRoster
     public string? CSName { get; set; }
 }
 ```
-17. add Data\INFLRepo.cs to define the method signature, required for injection into program.cs
+18. add Data\INFLRepo.cs to define the method signature, required for injection into program.cs
 ``` C#
 using AgilitySportsAPI.Models;
 
@@ -213,7 +226,7 @@ public interface INFLRepo
     #endregion
 }
 ```
-18. add Data\NFLRepo.cs for the method, it needs dapper to access sql and the configuration string
+19. add Data\NFLRepo.cs for the method, it needs dapper to access sql and the configuration string
 ``` C#
 using AgilitySportsAPI.Models;
 using Dapper.Contrib.Extensions;
@@ -243,7 +256,7 @@ public class NFLRepo : INFLRepo
     #endregion
 }
 ```
-19. edit program.cs to add an entry for this new method
+20. edit program.cs to add an entry for this new method
 > first add a using statement at the top
 ``` C#
 using AgilitySportsAPI.Data;
@@ -262,15 +275,15 @@ NFL.MapGet("roster/all", async (INFLRepo repo) => {
 
 #endregion
 ```
-20. save all files, compile, and reload with dotnet run in the terminal
-21. create Test\NFL.http and add a get call, but preface it with a variable
+21. save all files, compile, and reload with dotnet run in the terminal
+22. create Test\NFL.http and add a get call, but preface it with a variable
 ```
 @url = http://localhost:1106/api/
 
 ### get all roster
 get {{url}}nfl/roster/all
 ```
-22. add Dtos\NFLRosterDto.cs for a more concise json payload
+23. add Dtos\NFLRosterDto.cs for a more concise json payload
 ``` C#
 namespace AgilitySportsAPI.Dtos;
 
@@ -286,7 +299,7 @@ public class NFLRosterDto
     public string college { get; set; } = null!;
 }
 ```
-23. add a second signature to Data\INFLRepo.cs
+24. add a second signature to Data\INFLRepo.cs
 > add a using at the top
 ``` C#
 using AgilitySportsAPI.Dtos;
@@ -295,7 +308,7 @@ using AgilitySportsAPI.Dtos;
 ``` C#
 Task<IEnumerable<NFLRosterDto>> GetNFLRoster();
 ```
-24. add a matching method to Data\NFLRepo.cs
+25. add a matching method to Data\NFLRepo.cs
 > add 2 usings at the top
 ``` C#
 using AgilitySportsAPI.Dtos;
@@ -324,14 +337,14 @@ order by
         }
     }
 ```
-25. finally, add the second endpoint to program.cs
+26. finally, add the second endpoint to program.cs
 ``` C#
 NFL.MapGet("roster", async (INFLRepo repo) => {
     return Results.Ok(await repo.GetNFLRoster());
 });
 ```
-26. save all files, reload the terminal with dotnet run
-27. add a second test to Test/NFL.http, we now have a smaller json payload
+27. save all files, reload the terminal with dotnet run
+28. add a second test to Test/NFL.http, we now have a smaller json payload
 ```
 ### list players
 get http://localhost:1106/api/nfl/roster
