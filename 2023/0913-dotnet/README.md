@@ -1,4 +1,4 @@
-# Philly,NET - September 13, 2023
+# Philly.NET - September 13, 2023
 
 ## [Meetup site](https://www.meetup.com/philly-net/events/295029462/) for this event
 
@@ -21,7 +21,7 @@ Looking to streamline your Azure development process? Join us for an interactive
 #### Overview
 Explore Azure Container Apps, your hassle-free solution for deploying containerized apps. Say goodbye to infrastructure and scaling complexities. Join us for a hands-on session to create, deploy, and compare this service with alternatives like Azure Container Instances and Azure Kubernetes Service.
 
-# Philly,NET - September 13, 2023
+# Philly.NET - September 13, 2023
 
 ## Azure Developer CLI and Azure Container Apps
 
