@@ -2,12 +2,9 @@
 
 ## [Meetup site](https://www.meetup.com/philly-net) for this event
 
-***
-
 ## Blazor United: The Future of ASP.NET Core in .NET 8
 
 ## Short Link to This Content: https://bit.ly/pdn231101
-
 
 ### Presented by: Chris Gomez
 
@@ -39,4 +36,4 @@ To follow along or use Blazor in .NET 8.0 RC2, you will need the following:
 ## Short Link to This Content: https://bit.ly/pdn231101
 
 ## or Scan Here
-<img src="images\pdn231001.png" alt="QR Code for direct link to this page" width="256"/>
+<img src="images/pdn231101.png" alt="QR Code for direct link to this page" width="256"/>
