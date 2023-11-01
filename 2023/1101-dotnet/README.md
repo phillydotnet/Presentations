@@ -13,9 +13,12 @@ At [dotNetConf](https://www.dotnetconf.net/) on November 14th, we expect .NET 8 
 
 This talk will go over the new features of ASP.NET Core 8, which actually benefit all ASP.NET developers whether you intend to use Blazor as a framework or not.  You might find that you want to stick with the ASP.NET framework you are using but want to do some light modularization with components.  Maybe you want to keep using your current SPA framework and use components.
 
+### Slides
+Please find the slides at: https://spaceshot.github.io/pdnmeeting231101/
+
 ### Tooling
 
-To follow along or use Blazor in .NET 8.0 RC2, you will need the following:
+To use Blazor in .NET 8.0 RC2, you will need the following:
 
 - [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
 
@@ -27,7 +30,6 @@ To follow along or use Blazor in .NET 8.0 RC2, you will need the following:
     - or use [WinGet](https://learn.microsoft.com/dotnet/core/install/windows?WT.mc_id=dotnet-35129-website#install-with-windows-package-manager-winget)
     - or install for your platform from [here](https://dotnet.microsoft.com/download/dotnet/8.0)
 
-<br>
 <br>
 <hr>
 
