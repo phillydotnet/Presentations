@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoComponentLib", "VideoComponentLib\VideoComponentLib.csproj", "{78F35503-645A-4DFB-A155-D7FB8694A8C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorRenderer.Console", "BlazorRenderer.Console\BlazorRenderer.Console.csproj", "{01B51389-3232-4458-96C5-C8D9E134DA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78F35503-645A-4DFB-A155-D7FB8694A8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F35503-645A-4DFB-A155-D7FB8694A8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F35503-645A-4DFB-A155-D7FB8694A8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F35503-645A-4DFB-A155-D7FB8694A8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B51389-3232-4458-96C5-C8D9E134DA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B51389-3232-4458-96C5-C8D9E134DA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B51389-3232-4458-96C5-C8D9E134DA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B51389-3232-4458-96C5-C8D9E134DA95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F3B3B35-945D-47BB-A6CD-E71082E546DB}
+	EndGlobalSection
+EndGlobal

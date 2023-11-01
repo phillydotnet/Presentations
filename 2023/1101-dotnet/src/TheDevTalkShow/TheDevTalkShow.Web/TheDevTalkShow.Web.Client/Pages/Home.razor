@@ -1,0 +1,124 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<style>
+    .card-horizontal {
+        display: flex;
+        flex: 1 1 auto;
+    }
+</style>
+<div class="container" style="margin-bottom:75px;">
+    <div class="text-center">
+        <h1 class="display-3">The Dev Talk Show!</h1>
+        <h3>Developers doing what developers do, recorded during a live stream.</h3>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <img src="/img/TheDevTalkShow 488a99-trans.png" style="max-width:400px;">
+        </div>
+        <div class="col-md-7">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-horizontal">
+                        <div class="img-square-wrapper">
+                            <img class="featureIcon" src="/img/streamIcon.png" style="padding-top:40px;" alt="streaming icon">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Join Us, Live - We broadcast Wednesdays @@ 8:30PM US Eastern Time</h4>
+                            <p class="card-text">Watch the show live and join the conversation! You can watch us LIVE on <a href="https://mixer.com/thedevtalkshow">Mixer</a>. Please say "hi", ask a question, or leave a comment on the live feed. We are on <a href="https://www.twitch.tv/thedevtalkshow">Twitch</a> and <a href="https://www.youtube.com/channel/UC2iybVI2TE2LQ6straknrnA">YouTube</a> too.  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card-horizontal">
+                        <div class="img-square-wrapper">
+                            <img class="featureIcon" src="/img/youtube-logo.png" style="padding-top:40px;" alt="youtube logo">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Catch Up</h4>
+                            <p class="card-text">Our <a href="https://www.youtube.com/channel/UC2iybVI2TE2LQ6straknrnA">YouTube catalog</a> contains all our shows and content.</p>
+                        </div>
+                    </div>
+                </div>
+                @*<div class="col-md-12">
+                    <div class="card-horizontal">
+                        <div class="img-square-wrapper">
+                            <img class="" src="/img/podcast-512.png" style="width:75px; padding-top:20px;" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Listen On The Go</h4>
+                            <p class="card-text">If video isn't your thing, we've converted each show to a podcast just for you!</p>
+                        </div>
+                    </div>
+                </div>*@
+                <div class="col-md-12">
+                    <div class="card-horizontal">
+                        <h5 class="card-title">Episode<br />Replay</h5>
+                        <div class="card-body">
+                            <YouTubeVideo VideoId="ZjIlVQ8Om9Q" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fullWidthPanel" >
+    <div class="container">
+        <h2 style="padding-top:0px;">Affiliated Content</h2>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card affiliate">
+                    <div style="padding:20px;">
+                        <img src="/img/Phillydotnet.png" style="max-height:105px;" class="card-img-top" alt="PhillyDotNet Logo">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Philly.NET</h5>
+                        <p class="card-text">Very popular developer meetup featuring great content. Meetings are twice a month and full day Code Camps are twice a year!</p>
+                        <ul class="list-unstyled">
+                            <li><a href="http://meetup.com/philly-net">MeetUp Info</a></li>
+                            <li><a href="http://youtube.com/phillydotnet">YouTube Channel</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card affiliate">
+                    <div style="padding:20px;">
+                        <img src="/img/techbash2019.png" style="max-height:145px;" class="card-img-top" alt="TechBash Logo">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">TechBash</h5>
+                        <p class="card-text">An awesome developer conference in the poconos</p>
+                        <ul class="list-unstyled">
+                            <li><a href="http://TechBash.com">TechBash.com</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCwrHPf4oI1_UydigJQxuj3g">YouTube Channel</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card affiliate">
+                    <div style="padding:20px;">
+                        <img src="https://yt3.ggpht.com/a/AGF-l79YFnIFI6I2Ap_ypolGMmfvIvg3Zlz8BEnx9Q=s288-c-k-c0xffffffff-no-rj-mo" style="max-height:95px;" class="card-img-top" alt="TechBash Logo">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">SchwammyStreams</h5>
+                        <p class="card-text">Andy Schwam codes live with you! Learn great programming tips and practices from him and watch as he learns from his viewers, too!</p>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.youtube.com/channel/UCeiCL6d9y_xJtYh-3F2d9YA">Watch Replays on YouTube</a></li>
+                            <li><a href="https://mixer.com/SchwammyStreams">Live streams on Mixer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h2>Latest Episode</h2>
+    <LatestYouTubeVideo Width="560" Height="315" />
+</div>

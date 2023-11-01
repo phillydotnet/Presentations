@@ -1,0 +1,16 @@
+﻿<div class="col-md-12">
+    <div class="card-horizontal">
+        <h5 class="card-title">@Caption</h5>
+        <div class="card-body">
+            <iframe src="https://www.youtube.com/embed/@VideoId" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string VideoId { get; set; } = "ZjIlVQ8Om9Q";
+
+    [Parameter]
+    public string Caption { get; set; } = string.Empty;
+}

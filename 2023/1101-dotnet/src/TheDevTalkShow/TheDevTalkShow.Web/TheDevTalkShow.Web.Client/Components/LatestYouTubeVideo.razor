@@ -1,0 +1,20 @@
+﻿@using TheDevTalkShow.Web.Client.Services
+@inject ILatestYouTubeVideoService latestVideoService
+
+<YouTubeVideo VideoId="@YtResponse" Width="@Width" Height="@Height" />
+
+@code {
+
+    [Parameter]
+    public int? Width { get; set; } = null;
+
+    [Parameter]
+    public int? Height { get; set; } = null;
+
+    private string? YtResponse { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        YtResponse = await latestVideoService.GetLatestVideoId();
+    }
+}

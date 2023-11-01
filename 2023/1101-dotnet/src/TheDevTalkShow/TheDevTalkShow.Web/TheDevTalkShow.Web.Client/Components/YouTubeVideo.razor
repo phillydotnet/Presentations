@@ -1,0 +1,17 @@
+﻿<iframe src="https://www.youtube.com/embed/@VideoId"
+        width="@Width" height="@Height"
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+@code {
+    [Parameter]
+    public string VideoId { get; set; } = "ZjIlVQ8Om9Q";
+
+    [Parameter]
+    public int? Width { get; set; } = null;
+
+    [Parameter]
+    public int? Height { get; set; } = null;
+}
