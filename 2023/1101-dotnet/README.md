@@ -2,6 +2,8 @@
 
 ## [Meetup site](https://www.meetup.com/philly-net) for this event
 
+## YouTube Recording: https://youtu.be/6zNuYou8EFs
+
 ## Blazor United: The Future of ASP.NET Core in .NET 8
 
 ## Short Link to This Content: https://bit.ly/pdn231101

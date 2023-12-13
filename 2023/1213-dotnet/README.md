@@ -17,6 +17,11 @@ If you know Jeff, you know that this is a full Ask Me Anything session, where he
 
 ### Notes
 
+#### Links
+[Complete .NET Conf 2023 YouTube Playlist](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oULyHSPBx-tQzePOYlhvrAU)
+
+[.NET 8.0 Downloads](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+
 # Philly.NET - December 13, 2023
 
 ## Short Link to This Content: https://bit.ly/pdn231213
