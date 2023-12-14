@@ -33,7 +33,21 @@ Jeff says to expect .NET Conf 2024 on the second Tuesday of November.  .NET Conf
 
 [Stephen Toub's infamous performance post](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/) - note this will take time to load.  The blog post would be 200+ printed pages.
 
+[GitHub repo for ASP.NET](https://github.com/dotnet/aspnetcore) - See the latest code as the team prepares for .NET 9. Read issues, file issues.  Ask questions.
 
+## C# 12 - New features
+Features highlighted by Jeff.
+
+[Primary Constructors](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-12.0/primary-constructors) - from the docs
+
+[Primary Constructors in .NET 8 - Everything you need to know](https://www.jondjones.com/programming/aspnet-core/framework/primary-constructors-in-net-8-everything-you-need-to-know/#:~:text=In%20simple%20terms%20when%20you%20use%20construct%20arguments,classes%20and%20structs%20are%20only%20class-scoped%20private%20variables.) - a blog post from the community that goes through primary constructors in detail. It also contrasts how the syntax looks and acts between classes and records.
+
+## .NET Aspire
+[.NET Conf introduction session (YouTube)](https://www.youtube.com/watch?v=z1M-7Bms1Jg&list=PLdo4fOcmZ0oULyHSPBx-tQzePOYlhvrAU&index=4)
+
+[.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview) - The official docs for the .NET Aspire program
+
+[Introducing .NET Aspire: Simplifying Cloud-Native Development with .NET 8](https://devblogs.microsoft.com/dotnet/introducing-dotnet-aspire-simplifying-cloud-native-development-with-dotnet-8/) - Blog Post introducing .NET Aspire
 
 # Philly.NET - December 13, 2023
 
