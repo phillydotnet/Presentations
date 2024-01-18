@@ -25,6 +25,23 @@ By the end of this session, you will have the skills and confidence to become a 
 
 ### Notes
 
+#### Introduction to Microsoft Learn
+
+[Microsoft Learn Contributor Guide](https://learn.microsoft.com/en-us/contribute/)
+
+Three major content areas on Learn:
+- Documentation
+- Training
+- Q&A
+
+#### Learn Tips & Tricks
+
+#### Docs as Code in GitHub
+
+#### How to Contribute
+
+
+
 # Philly.NET - January 17, 2024
 
 ## Short Link to This Content: https://bit.ly/pdn240117
