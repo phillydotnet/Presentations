@@ -3,6 +3,16 @@ Presentation meeting notes and materials, including slides and links to replays.
 
 Presentation materials and Instructions categorized by year and month.  Video replays of labs are often available.  
 
+# 2024
+
+## March 20 - [README notes](https://github.com/phillydotnet/Presentations/tree/main/2024/0320-dotnet/README.md)
+Thrill Us, Then Kill Us? AI Existential Risk: The Hardest Conversation - John Sherman
+
+## February 21 - [README notes](https://github.com/phillydotnet/Presentations/tree/main/2024/0221-dotnet/README.md)
+Intro to .NET Aspire - Bill Wolff
+
+## January 17 - [README notes](https://github.com/phillydotnet/Presentations/tree/main/2024/0117-dotnet/README.md)
+Learn, Share, and Grow: How to Become a Microsoft Learn Contributor - Alvin Ashcraft
 # 2023
 
 ## March 15 - [README notes](https://github.com/phillydotnet/Presentations/tree/master/2023/0315-dotnet/README.md)

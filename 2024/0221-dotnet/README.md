@@ -2,7 +2,7 @@
 
 ## [Meetup site](https://www.meetup.com/philly-net/events/298710648/) for this event
 
-## TBD
+## Intro to .NET Aspire
 
 ## Short Link to This Content: https://bit.ly/pdn240221
 
