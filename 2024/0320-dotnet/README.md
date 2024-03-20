@@ -2,7 +2,7 @@
 
 # Thrill Us, Then Kill Us? AI Existential Risk: The Hardest Conversation
 
-## [Meetup site]() for this event
+## [Meetup site](https://www.meetup.com/philly-net/events/298710679/) for this event
 
 ## Short Link to This Content: https://bit.ly/pdn240320
 
