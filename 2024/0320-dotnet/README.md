@@ -25,6 +25,11 @@ In March 2023, John read [Eliezer Yudkowsky's AI safety article in Time Magazine
 
 ### Notes
 
+John's Podcast: [For Humanity: An AI Safety Podcast](https://forhumanity.center)
+On YouTube - https://www.youtube.com/@ForHumanityPodcast/videos
+
+
+
 # Philly.NET - March 20, 2024
 
 ## Short Link to This Content: https://bit.ly/pdn240320
