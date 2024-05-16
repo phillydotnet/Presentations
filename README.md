@@ -5,6 +5,9 @@ Presentation materials and Instructions categorized by year and month.  Video re
 
 # 2024
 
+## May 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2024/0515-dotnet/README.md)
+Performance Tuning in C# - Scott Kay
+
 ## March 20 - [README notes](https://github.com/phillydotnet/Presentations/tree/main/2024/0320-dotnet/README.md)
 Thrill Us, Then Kill Us? AI Existential Risk: The Hardest Conversation - John Sherman
 

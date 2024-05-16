@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0 - Profiling", "Profiling\0 - Profiling.csproj", "{1D073571-9E5A-4A5A-9082-27EE29421CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Benchmarking", "Benchmarking\1 - Benchmarking.csproj", "{074D42EC-915E-41B7-89DE-1FC65251B378}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D073571-9E5A-4A5A-9082-27EE29421CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D073571-9E5A-4A5A-9082-27EE29421CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D073571-9E5A-4A5A-9082-27EE29421CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D073571-9E5A-4A5A-9082-27EE29421CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074D42EC-915E-41B7-89DE-1FC65251B378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074D42EC-915E-41B7-89DE-1FC65251B378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074D42EC-915E-41B7-89DE-1FC65251B378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074D42EC-915E-41B7-89DE-1FC65251B378}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFCC0A6B-A97E-4615-B6F0-F0B82EAD27D1}
+	EndGlobalSection
+EndGlobal
