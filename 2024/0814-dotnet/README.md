@@ -16,6 +16,10 @@ Elevate your coding game and join us this August for a dynamic talk on developer
 
 ### Notes
 
+Microsoft Dev Box - https://azure.microsoft.com/en-us/products/dev-box/
+
+- Quickstart (using Azure portal) https://learn.microsoft.com/en-us/azure/dev-box/quickstart-configure-dev-box-service
+
 
 
 # Philly.NET - August 14, 2024
