@@ -67,7 +67,16 @@ https://github.com/microsoft/GitHub-Copilot-Global-Bootcamp/tree/main/content
 
 (CodeSpaces content is slides 15-23 of the PowerPoint file.)
 
+You can get started with GitHub Copilot right now by going to:
+https://github.com/copilot
 
+### Copilot Instructions File
+The copilot instructions file allows you to define how you want Copilot to behave in your repository.  This provides you some common instructions for every prompt instead of having to repeat yourself every time you ask Copilot a question.
+
+More information about the copilot instructions file are here: https://code.visualstudio.com/docs/copilot/copilot-customization
+
+### Copilot Models
+Comparing the available models for Copilot: https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task
 
 # Other Topics
 ## Build applications with copilot agent
