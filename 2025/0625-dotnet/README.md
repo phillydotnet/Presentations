@@ -87,7 +87,16 @@ https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode
 A good primer on the difference between Agent Mode and Coding Agent is here:
 https://github.blog/developer-skills/github/less-todo-more-done-the-difference-between-coding-agent-and-agent-mode-in-github-copilot/
 
+## Jeff Fritz CopilotThatJawn Site
+Web Site: https://copilotthatjawn.com/
+Jeff's Twitch Channel: https://twitch.tv/csharpfritz
+Jeff's YouTube Channel: https://youtube.com/csharpfritz
 
+July 18th: Adding AI to your .NET applications
+(Semantic Kernel, Microsoft Extensions AI)
+
+July 25th: .NET Aspire Workshop
+(Adding Aspire to an existing .NET application, adding telemetry, AI, and more)
 
 # Other Topics
 ## Build applications with copilot agent
