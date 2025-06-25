@@ -78,6 +78,17 @@ More information about the copilot instructions file are here: https://code.visu
 ### Copilot Models
 Comparing the available models for Copilot: https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task
 
+### Agent Mode
+Agent Mode is a newer feature of GitHub Copilot that goes beyond the chatting about your work.  It can complete tasks for you, such as writing code, running tests, and even deploying applications. This feature is designed to help you be more productive by automating repetitive tasks.
+
+https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode
+
+### Agent Mode vs Coding Agent
+A good primer on the difference between Agent Mode and Coding Agent is here:
+https://github.blog/developer-skills/github/less-todo-more-done-the-difference-between-coding-agent-and-agent-mode-in-github-copilot/
+
+
+
 # Other Topics
 ## Build applications with copilot agent
 [Hands on lab direct link](https://github.com/skills/build-applications-w-copilot-agent-mode)
