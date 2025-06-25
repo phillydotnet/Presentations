@@ -70,6 +70,25 @@ https://github.com/microsoft/GitHub-Copilot-Global-Bootcamp/tree/main/content
 You can get started with GitHub Copilot right now by going to:
 https://github.com/copilot
 
+#### Examples
+**Zero-shot learning** - Generates code based only on your prompt with no example provided. It is drawing on patterns in its training data.
+Example: In VS Code (or some other editor) enter a comment such as "// Write a function that reverses a string" or enter that text into the GitHub Copilot chat.
+
+**One-shot learning** - Provide an example via a code snippet or sample output. Copilot then generates code to match the example. This improves accuracy and helps copilot match the coding style.
+Example: 
+Convert a list of numbers to their squares.
+Input: 1, 2, 3
+Output:
+Square of 1 is 1
+Square of 2 is 4
+Square of 3 is 9
+
+Provide the output for the input of 4, 5, 6.
+
+**Few-shot learning** - Provide multiple examples. This is helpful to train copilot to follow a particular pattern or coding style. It leads to higher quality and potentially more reliable code. This can be done via a prompt. For consistency across a project team, provide a copilot-instructions.md file that provides specific coding examples, coding style guidelines, naming conventions, etc.
+
+No example.
+
 ### Copilot Instructions File
 The copilot instructions file allows you to define how you want Copilot to behave in your repository.  This provides you some common instructions for every prompt instead of having to repeat yourself every time you ask Copilot a question.
 
@@ -99,11 +118,13 @@ July 25th: .NET Aspire Workshop
 (Adding Aspire to an existing .NET application, adding telemetry, AI, and more)
 
 ## Hands-On Labs
+**Presented by Rob Keiser**
+
+[Hands on lab direct link](https://github.com/skills/build-applications-w-copilot-agent-mode)
+
+all instructions for the lab is [here](https://github.com/row5is/pdn-hol-test2/issues/1)
+
 There are many different Hands-On-Labe available for this "bootcamp".  This link will take you directly to the labs: https://github.com/microsoft/GitHub-Copilot-Global-Bootcamp/tree/main/content#labs
-
-The Hands-On-Lab we did at the meetup was: https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/
-
-At the meetup we started with this exercise: https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/4-exercise
 
 
 # Other Topics
