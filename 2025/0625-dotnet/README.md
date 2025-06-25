@@ -98,6 +98,14 @@ July 18th: Adding AI to your .NET applications
 July 25th: .NET Aspire Workshop
 (Adding Aspire to an existing .NET application, adding telemetry, AI, and more)
 
+## Hands-On Labs
+There are many different Hands-On-Labe available for this "bootcamp".  This link will take you directly to the labs: https://github.com/microsoft/GitHub-Copilot-Global-Bootcamp/tree/main/content#labs
+
+The Hands-On-Lab we did at the meetup was: https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/
+
+At the meetup we started with this exercise: https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/4-exercise
+
+
 # Other Topics
 ## Build applications with copilot agent
 [Hands on lab direct link](https://github.com/skills/build-applications-w-copilot-agent-mode)
