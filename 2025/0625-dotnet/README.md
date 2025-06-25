@@ -13,6 +13,11 @@ Join us for a hands-on workshop where you'll learn how to unlock the full potent
 
 💡 Get Started for Free! Don’t have GitHub Copilot yet? Follow our guide on [GitHub Copilot FREE for Visual Studio Code](https://code.visualstudio.com/blogs/2024/12/18/free-github-copilot/?wt.mc_id=thankyou_S-1446_email_reactor) to activate your free account and get ready for the workshop.
 
+#### Where are these labs?
+You can view the lab material yourself at: https://github.com/microsoft/github-copilot-global-bootcamp
+
+There is **more** content in the repository than we will cover in this workshop, so feel free to explore on your own after the event.
+
 ### GitHub Copilot FREE for Visual Studio Code
 To get started with GitHub Copilot for free, follow the steps here: https://code.visualstudio.com/blogs/2024/12/18/free-github-copilot/?wt.mc_id=thankyou_S-1446_email_reactor
 
@@ -31,7 +36,22 @@ Through the lab you will learn how to:
 - Create a pull request
 - Merge the pull request
 
-### About the Speaker
+## GitHub CodeSpaces Hands-On Lab 
+**Presented by Rich Ross**
+
+The slides Rich showed are found at the GitHub Copilot Global Bootcamp. 
+
+Specifically, the slide file is a PowerPoint presentation found here:
+https://github.com/microsoft/GitHub-Copilot-Global-Bootcamp/tree/main/content
+
+(CodeSpaces content is slides 9-14 of the PowerPoint file.)
+
+CodeSpaces Examples GitHub organization: https://github.com/codespaces-examples
+
+- Choose a repository here to open an example CodeSpace all ready to go with the tools needed to be a developer in that technology.
+
+- For a DotNet example, try going to this repository that sets up everything you need for .NET Aspire: https://github.com/dotnet/aspire-devcontainer
+ 
 
 ## Build applications with copilot agent
 [Hands on lab direct link](https://github.com/skills/build-applications-w-copilot-agent-mode)
