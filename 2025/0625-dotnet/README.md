@@ -6,8 +6,6 @@
 
 ## Short Link to This Content: https://bit.ly/pdn250625
 
-### Presented by: Brian Minisi
-
 ### Overview
 Join us for a hands-on workshop where you'll learn how to unlock the full potential of GitHub Copilot and elevate your coding experience. Whether you're a beginner or an experienced developer, this session will introduce you to AI-assisted development workflows, helping you write better code, faster.
 
@@ -19,11 +17,26 @@ Join us for a hands-on workshop where you'll learn how to unlock the full potent
 To get started with GitHub Copilot for free, follow the steps here: https://code.visualstudio.com/blogs/2024/12/18/free-github-copilot/?wt.mc_id=thankyou_S-1446_email_reactor
 
 
+## Introduction To GitHub
+
+Lab repository: https://github.com/skills/introduction-to-github?tab=readme-ov-file
+
+This lab is automated using GitHub actions, and the workflows are designed to monitor what you are doing in the lab.
+
+Through the lab you will learn how to:
+- Fork a repository
+- Create a branch in the GitHub web interface
+- Add a file to the branch
+- Commit changes to the branch
+- Create a pull request
+- Merge the pull request
+
 ### About the Speaker
 
 
 ### Notes
 
+[Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 ***
 ***
 
