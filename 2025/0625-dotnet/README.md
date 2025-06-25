@@ -35,6 +35,7 @@ Through the lab you will learn how to:
 
 ## Build applications with copilot agent
 [Hands on lab direct link](https://github.com/skills/build-applications-w-copilot-agent-mode)
+all instructions for the lab is [here](https://github.com/row5is/pdn-hol-test2/issues/1)
 
 ### Notes
 
