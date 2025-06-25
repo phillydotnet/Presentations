@@ -51,6 +51,12 @@ CodeSpaces Examples GitHub organization: https://github.com/codespaces-examples
 - Choose a repository here to open an example CodeSpace all ready to go with the tools needed to be a developer in that technology.
 
 - For a DotNet example, try going to this repository that sets up everything you need for .NET Aspire: https://github.com/dotnet/aspire-devcontainer
+
+- Devcontainers and devcontainer.json allow you to define the environment you want to work in
+
+- Information about Dev Containers: https://code.visualstudio.com/docs/devcontainers/create-dev-container
+
+- Note that you don't **need** a devcontainer.json to use CodeSpaces.  You can create a CodeSpace and launch it from any repository.
  
 
 ## Build applications with copilot agent
