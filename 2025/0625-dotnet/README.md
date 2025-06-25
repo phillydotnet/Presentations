@@ -57,18 +57,27 @@ CodeSpaces Examples GitHub organization: https://github.com/codespaces-examples
 - Information about Dev Containers: https://code.visualstudio.com/docs/devcontainers/create-dev-container
 
 - Note that you don't **need** a devcontainer.json to use CodeSpaces.  You can create a CodeSpace and launch it from any repository.
- 
 
+## GitHub Copilot
+** Presented by Tony Verguldi**
+The slides Tony showed are found at the GitHub Copilot Global Bootcamp. 
+
+Specifically, the slide file is a PowerPoint presentation found here:
+https://github.com/microsoft/GitHub-Copilot-Global-Bootcamp/tree/main/content
+
+(CodeSpaces content is slides 15-23 of the PowerPoint file.)
+
+
+
+# Other Topics
 ## Build applications with copilot agent
 [Hands on lab direct link](https://github.com/skills/build-applications-w-copilot-agent-mode)
 all instructions for the lab is [here](https://github.com/row5is/pdn-hol-test2/issues/1)
 
-### Notes
-
+## Mastering GitHub Copilot for Paired Programming
 [Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 ***
 ***
-
 
 # Philly.NET - June 25, 2025
 
