@@ -33,6 +33,8 @@ Through the lab you will learn how to:
 
 ### About the Speaker
 
+## Build applications with copilot agent
+[Hands on lab direct link](https://github.com/skills/build-applications-w-copilot-agent-mode)
 
 ### Notes
 
