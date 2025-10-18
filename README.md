@@ -3,6 +3,14 @@ Presentation meeting notes and materials, including slides and links to replays.
 
 Presentation materials and Instructions categorized by year and month.  Video replays of labs are often available.  
 
+# 2025
+
+## October 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/1015-dotnet/README.md)
+The Anatomy of an AI Breach: From Attack to Defense - John Iwasz
+
+## June 25 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/0625-dotnet/README.md)
+GitHub Copilot Bootcamp
+
 # 2024
 
 ## May 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2024/0515-dotnet/README.md)
