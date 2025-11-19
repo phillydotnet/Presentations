@@ -2,7 +2,7 @@
 
 # Unifying AI Agents: Introducing the Microsoft Agent Framework
 
-Short Link to this content: https://bit.ly/pdn251119
+Short Link to this content: https://tinyurl.com/pdn251119
 
 ## [Meetup site](https://www.meetup.com/philly-net/events/310554338) for this event
 
