@@ -5,6 +5,9 @@ Presentation materials and Instructions categorized by year and month.  Video re
 
 # 2025
 
+## November 19 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/1119-dotnet/README.md)
+Unifying AI Agents: Introducing the Microsoft Agent Framework - Rich Ross
+
 ## October 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/1015-dotnet/README.md)
 The Anatomy of an AI Breach: From Attack to Defense - John Iwasz
 
