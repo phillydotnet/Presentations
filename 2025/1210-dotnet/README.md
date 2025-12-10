@@ -4,6 +4,8 @@
 
 Short Link to this content: https://tinyurl.com/pdn251210
 
+![Link to This Page](qrchimpX256.png)
+
 ## [Meetup site](https://www.meetup.com/philly-net/events/310554342) for this event
 
 ### Overview
