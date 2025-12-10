@@ -5,6 +5,9 @@ Presentation materials and Instructions categorized by year and month.  Video re
 
 # 2025
 
+## December 10 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/1210-dotnet/README.md)
+.NET Rocks Live: The Future of Software Development - Jeff Fritz, Carl Franklin, Richard Campbell
+
 ## November 19 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/1119-dotnet/README.md)
 Unifying AI Agents: Introducing the Microsoft Agent Framework - Rich Ross
 
