@@ -22,6 +22,15 @@ The Anatomy of an AI Breach: From Attack to Defense - John Iwasz
 ## June 25 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/0625-dotnet/README.md)
 GitHub Copilot Bootcamp
 
+## April 16 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/0416-dotnet/README.md)
+Ensure High Availability for Azure OpenAI - Brian Minisi
+
+## March 19 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/0319-dotnet/README.md)
+Understanding the Azure Data Platform Options - Joseph D'Antoni
+
+## February 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/0218-dotnet/README.md)
+Unlocking the Power of GitHub Models - Rich Ross
+
 # 2024
 
 ## May 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2024/0515-dotnet/README.md)
