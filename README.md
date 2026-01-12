@@ -3,6 +3,11 @@ Presentation meeting notes and materials, including slides and links to replays.
 
 Presentation materials and Instructions categorized by year and month.  Video replays of labs are often available.  
 
+# 2026
+
+## January 21 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0121-dotnet/README.md)
+Understanding Vector Search Through the Lens of SQL Server 2025 - Joseph D'Antoni
+
 # 2025
 
 ## December 10 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2025/1210-dotnet/README.md)
