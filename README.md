@@ -5,6 +5,9 @@ Presentation materials and Instructions categorized by year and month.  Video re
 
 # 2026
 
+## February 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0218-dotnet/README.md)
+Architecting Cloud Native Modernization of Desktop Apps - Bill Wolff
+
 ## January 21 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0121-dotnet/README.md)
 Understanding Vector Search Through the Lens of SQL Server 2025 - Joseph D'Antoni
 
