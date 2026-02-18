@@ -28,13 +28,15 @@ Bill Wolff is an independent consultant, trainer, and architect specializing in 
 ## Notes
 
 ### Coding With AI
-The first topic was coding with AI.  After reading a viewer comment that was critical of their experience, some sites and tools were mentioned:
+The topic was coding with AI.  After reading a viewer comment that was critical of their experience, some sites and tools were mentioned:
 
-[Awesome Copilot on Github](https://github.com/mcleodchris/awesome-copilot) - A collection of resources to help with your GitHub Copilot experience
+[Awesome Copilot on Github](https://github.com/github/awesome-copilot) - "A community created collection of custom agents, prompts, and instructions to supercharge your GitHub Copilot experience across different domains, languages, and use cases." ([Blog Post](https://developer.microsoft.com/blog/introducing-awesome-github-copilot-customizations-repo))
 
 [Auto mode for model selection](https://docs.github.com/en/copilot/concepts/auto-model-selection)
 
+[Burke Holland - Beast Mode](https://burkeholland.github.io/posts/beast-mode-3-1/) - "...a custom chat mode for VS Code that turns your agent into a Beast."
 
+[Custom Agents in VS Code](https://code.visualstudio.com/docs/copilot/customization/custom-agents)
 
 # Philly.NET - December 10, 2025
 
