@@ -3,6 +3,12 @@ Presentation meeting notes and materials for **2026 only** including notes from 
 
 # 2026
 
+## April 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0415-dotnet/README.md)
+Build an AI Pizza Ordering Bot in C# with Microsoft Foundry and .NET Aspire - Chris Gomez
+
+## March 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0318-dotnet/README.md)
+Everything New in C# 14 - Scott Kay
+
 ## February 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0218-dotnet/README.md)
 Architecting Cloud Native Modernization of Desktop Apps - Bill Wolff
 
