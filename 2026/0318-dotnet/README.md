@@ -2,6 +2,8 @@
 
 # Everything New in C# 14
 
+Short Link to this content: https://tinyurl.com/pdn260318
+
 ## [Meetup site](https://www.meetup.com/philly-net/events/305135880) for this event
 
 ### Overview
