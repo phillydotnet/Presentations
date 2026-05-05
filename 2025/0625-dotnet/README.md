@@ -23,6 +23,7 @@ To get started with GitHub Copilot for free, follow the steps here: https://code
 
 
 ## Introduction To GitHub
+Presented by Chris Gomez
 
 Lab repository: https://github.com/skills/introduction-to-github?tab=readme-ov-file
 
