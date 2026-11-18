@@ -6,7 +6,7 @@ Presentation meeting notes and materials for **2026 only** including notes from 
 
 ### November 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/1118-dotnet/README.md)
 
-Beyond Autocomplete: Moving 200 Engineers from Copilot to Claude
+Beyond Autocomplete: Moving 200 Engineers from Copilot to Claude = Bill Wolff
 
 ### April 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0415-dotnet/README.md)
 
