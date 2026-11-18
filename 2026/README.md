@@ -1,18 +1,25 @@
 # Presentations - 2026
+
 Presentation meeting notes and materials for **2026 only** including notes from live presentation and materials from presenters.
 
-# 2026
+## 2026
 
-## November 18 
+### November 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/1118-dotnet/README.md)
 
-## April 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0415-dotnet/README.md)
+Beyond Autocomplete: Moving 200 Engineers from Copilot to Claude
+
+### April 15 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0415-dotnet/README.md)
+
 Build an AI Pizza Ordering Bot in C# with Microsoft Foundry and .NET Aspire - Chris Gomez
 
-## March 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0318-dotnet/README.md)
+### March 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0318-dotnet/README.md)
+
 Everything New in C# 14 - Scott Kay
 
-## February 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0218-dotnet/README.md)
+### February 18 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0218-dotnet/README.md)
+
 Architecting Cloud Native Modernization of Desktop Apps - Bill Wolff
 
-## January 21 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0121-dotnet/README.md)
+### January 21 - [README notes](https://github.com/phillydotnet/Presentations/blob/main/2026/0121-dotnet/README.md)
+
 Understanding Vector Search Through the Lens of SQL Server 2025 - Joseph D'Antoni
